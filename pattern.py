@@ -1,0 +1,31 @@
+from numpy import *
+
+arr=array([1,9,3,6,5],float)
+print(arr.dtype)
+print(arr)
+a=linspace(0,15,16)
+print(a)
+w=arange(0,16,2)
+print(w)
+q=logspace(1,40,6)
+print("%.2f" %q[4])
+z=zeros(12,int)
+c=ones(12,int)
+print(z)
+print(c)
+print(sort(arr))
+print(sum(arr))
+print(max(arr))
+print(unique(arr))
+print(concatenate([arr,w]))
+ar=array([
+          [1,2,3,8,9,7],
+          [4,5,6,12,31,11]
+         ])
+print(ar.ndim)
+print(ar)
+print()
+we=ar.flatten()
+print(we)
+qw=ar.reshape(2,3,2)
+print(qw)
